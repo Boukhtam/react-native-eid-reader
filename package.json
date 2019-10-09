@@ -1,0 +1,50 @@
+{
+  "name": "react-native-eid-reader",
+  "title": "React Native Electronic Identity-docs Reader",
+  "version": "0.0.0",
+  "description": "React Native Electronic-Identity-Documents reader module for Android & iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boukhtam/react-native-eid-reader.git",
+    "baseUrl": "https://github.com/Boukhtam/react-native-eid-reader"
+  },
+  "keywords": [
+    "react-native",
+    "eid",
+    "mrtd",
+    "ePassport",
+    "nfc",
+    "BAC",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Hamza BOUKHTAM",
+    "email": "xu@live.fr"
+  },
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+  },
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "files": [
+    "index.js",
+    "android",
+    "ios",
+    "react-native-nfc-manager.podspec",
+    "example"
+  ],
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
