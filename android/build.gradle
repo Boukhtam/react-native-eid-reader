@@ -63,6 +63,13 @@ dependencies {
     // https://github.com/facebook/react-native/blob/0.61-stable/template/android/app/build.gradle#L192
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    implementation 'com.android.support:appcompat-v7'  // 
+    implementation 'org.jmrtd:jmrtd:0.5.5'  // 
+    implementation 'net.sf.scuba:scuba-sc-android:0.0.9'  // 
+    implementation 'com.madgag.spongycastle:core:1.51.0.0'  // 
+    implementation 'com.madgag.spongycastle:prov:1.51.0.0'  // 
+    implementation 'edu.ucar:jj2000:5.2'  // 
+    implementation 'com.github.mhshams:jnbis:1.1.0'  // 
 }
 
 def configureReactNativePom(def pom) {
