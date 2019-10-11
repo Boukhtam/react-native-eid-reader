@@ -35,7 +35,7 @@ public class EidReaderModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void isEnabled(Callback callback) {
         NfcAdapter nfcAdapter = NfcAdapter.getDefaultAdapter(context);
-        if(NfcAdapter != null) {
+        if(nfcAdapter != null) {
             callback.invoke(null, nfcAdapter.isEnabled());
         } else {
             callback.invoke(null, false);
