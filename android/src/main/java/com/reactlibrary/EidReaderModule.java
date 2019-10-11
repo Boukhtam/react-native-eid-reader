@@ -38,7 +38,7 @@ public class EidReaderModule extends ReactContextBaseJavaModule {
         if(NfcAdapter != null) {
             callback.invoke(null, nfcAdapter.isEnabled());
         } else {
-            callback.invoke(null, false)
+            callback.invoke(null, false);
         }
     }
 }
