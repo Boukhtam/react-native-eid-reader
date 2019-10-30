@@ -1,7 +1,7 @@
 {
   "name": "react-native-eid-reader",
   "title": "React Native Electronic Identity-docs Reader",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "React Native Electronic-Identity-Documents reader module for Android & iOS",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "license": "Apache-2.0",
   "licenseFilename": "LICENSE",
   "publishConfig": {
-      "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "readmeFilename": "README.md",
   "peerDependencies": {
